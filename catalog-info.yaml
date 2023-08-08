@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-ecr
+  description: AWS ECR Terraform module
+  annotations:
+    github.com/project-slug: developertown/terraform-aws-ecr
+  tags:
+    - terraform
+    - aws
+    - ecr
+    - docker
+    - images
+spec:
+  type: terraform-module
+  lifecycle: production
+  owner: dt-devops
